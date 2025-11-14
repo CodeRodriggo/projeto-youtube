@@ -1,0 +1,38 @@
+@charset"UTF-8";
+
+.button1{
+        padding-bottom: 2rem;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+    .amazon1{
+        padding-top: 4rem;
+    }
+
+    .add{
+        background-color: rgba(239, 239, 7, 0.788);
+        height: 30px;
+        width: 95px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .buy{
+        background-color: rgb(240, 169, 37);
+        height: 30px;
+        width: 95px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;  
+        margin-left: 10px;
+    }
+    .stock{
+        color: green;
+    }
+    .nike{
+        font-size: larger;
+        font-weight: bold;
+    }

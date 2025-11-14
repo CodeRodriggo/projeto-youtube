@@ -1,0 +1,62 @@
+@charset"UTF-8";
+.sub{
+            background-color: rgba(205, 12, 12, 0.986);
+            color: white;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid red;
+            font-weight: bold;
+            font-family:Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            transition: opacity 0.15s;
+        }
+
+        .sub:hover{
+            opacity: 0.7;
+        }
+        .sub:active{
+            opacity: 0.4;
+        }
+        
+        .join{
+            border-radius: 2px;
+            border: 1px solid blue;
+            width: 65px;
+            height: 38px;
+            color: rgb(4, 4, 249);
+            background-color: white;
+            cursor: pointer;
+            margin: 10px ;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .join:hover{
+            background-color: rgb(4, 4, 249);
+            color: white;
+        }
+        
+        .join:active{
+            opacity: 0.7;
+        }
+
+        .tweet{
+            background-color: rgb(51, 181, 232);
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            border-radius: 40px;
+            border: 1px solid rgb(3, 173, 240);
+            width: 80px;
+            cursor: pointer;
+            transition: box-shadow 0.20s;
+        }
+
+        .tweet:hover{
+            opacity: 0.9;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.451);
+        }
+
+        .tweet:active{
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.716);
+            opacity: 0.7;
+        }

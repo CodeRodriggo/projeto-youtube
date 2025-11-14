@@ -1,0 +1,36 @@
+@charset"UTF-8";
+
+.sidebar{
+    background-color: white;
+    position: fixed;
+    width: 72px;
+    top: 55px;
+    bottom: 0;
+    cursor: pointer;
+    z-index:200;
+    padding-top: 5px;  
+}
+
+.sidebar-icon{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-icon img {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebar-icon:hover{
+    background-color: rgba(224, 224, 224, 0.63);
+}
+
+.sidebar-icon div{
+   font-family: "roboto";
+   font-size: 10px;
+}
+
+

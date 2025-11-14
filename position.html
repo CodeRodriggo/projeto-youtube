@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning position</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body style="height: 3000px;
+             padding-top: 90px;
+             padding-left: 90px;">
+             
+    <div style="
+            background-color: black;
+            color: white;
+            position: fixed;
+            height: 50px;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ">Header
+        </div>
+
+        <div style="
+            background-color: green;
+            color: white;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top:50px;
+            width: 72px;
+         ">
+            sidebar
+        </div>
+
+        <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        ">
+        absolute
+        </div>
+
+    <div style="
+            background-color: lightblue;
+            height: 200px;
+            top:51px;
+            width: 100%;
+            ">div 1
+        </div>
+    <div style="
+            background-color: lightpink;
+            width: 200px;
+            height: 200px;
+            ">div 2
+        </div>
+    
+</body>
+</html>
