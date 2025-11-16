@@ -28,8 +28,9 @@
         .video-title{
             margin-top: 0;
             font-family: "roboto", arial;
-            font-weight: 450;
-            margin-bottom: 10px; 
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-size: 14px;
         }
 
         .video-author, .video-stats{
