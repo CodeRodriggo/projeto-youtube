@@ -38,7 +38,7 @@
         font-size: 12px;
         margin-top: 0;
         margin-bottom: 0;
-        font-family: "roboto", arial;          
+        font-family: "roboto", arial;        
         }
 
         .video-stats{
@@ -53,6 +53,7 @@
         .video-info-grid{
             display: grid;
             grid-template-columns: 50px 1fr;
+            cursor: pointer;
         }
 
         .display-grid{
